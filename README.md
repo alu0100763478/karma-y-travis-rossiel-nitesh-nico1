@@ -12,12 +12,12 @@ Este repositorio aloja la práctica de conversión de tipos, realizada con html,
 
 ### Página de la práctica(.io):
 
-*[Práctica 3](http://ull-esit-gradoii-dsi.github.io/object-oriented-programming-in-js-rossiel-nitesh-nico/)
+[Práctica 3](http://ull-esit-gradoii-dsi.github.io/object-oriented-programming-in-js-rossiel-nitesh-nico/)
 
 ### Enlace al repositorio git de la práctica:
 
-*[OOP-JS](https://github.com/ULL-ESIT-GRADOII-DSI/object-oriented-programming-in-js-rossiel-nitesh-nico)
+[OOP-JS](https://github.com/ULL-ESIT-GRADOII-DSI/object-oriented-programming-in-js-rossiel-nitesh-nico)
 
 ### Enlace al Campus Virtual de la asignatura:
 
-*[Campus Virtual](https://campusvirtual.ull.es/1516/course/view.php?id=144)
+[Campus Virtual](https://campusvirtual.ull.es/1516/course/view.php?id=144)
