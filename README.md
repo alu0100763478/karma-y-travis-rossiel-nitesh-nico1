@@ -1,4 +1,4 @@
-# Práctica OOP en JS
+# Práctica: Eliminación del Switch Smell
 
 En la práctica anterior modificamos el código del conversor de temperaturas para que usara objetos y herencia. En esta práctica se tratarán las debilidades del código de la práctica anterior tales como:
   * Utilización de los Switch
