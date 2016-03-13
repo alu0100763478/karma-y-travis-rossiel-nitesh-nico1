@@ -1,6 +1,9 @@
 # Práctica OOP en JS
 
-Este repositorio aloja la práctica de conversión de tipos, realizada con html, css y javascript, usando POO y haciendo uso de la herencia en javascript.
+En la práctica anterior modificamos el código del conversor de temperaturas para que usara objetos y herencia. En esta práctica se tratarán las debilidades del código de la práctica anterior tales como:
+  * Utilización de los Switch
+  * Todas las clases están recogidas en un mismo fichero
+  * Expresión regular no optimizada
 
 ### Participantes:
 
@@ -12,12 +15,12 @@ Este repositorio aloja la práctica de conversión de tipos, realizada con html,
 
 ### Página de la práctica(.io):
 
-[Práctica 3](http://ull-esit-gradoii-dsi.github.io/object-oriented-programming-in-js-rossiel-nitesh-nico/)
+[Práctica 4](http://ull-esit-gradoii-dsi.github.io/eliminacion-del-switch-smell-rossiel-nitesh-nico1/)
 
 ### Enlace al repositorio git de la práctica:
 
-[OOP-JS](https://github.com/ULL-ESIT-GRADOII-DSI/object-oriented-programming-in-js-rossiel-nitesh-nico)
+[Eliminación del Switch Smell](https://github.com/ULL-ESIT-GRADOII-DSI/eliminacion-del-switch-smell-rossiel-nitesh-nico1)
 
 ### Enlace al Campus Virtual de la asignatura:
 
-[Campus Virtual](https://campusvirtual.ull.es/1516/course/view.php?id=144)
+[Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=180154)
