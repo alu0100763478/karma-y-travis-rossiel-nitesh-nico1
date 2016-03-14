@@ -18,7 +18,6 @@ function Celsius(valor)
   Celsius.prototype.toFarenheit = function ()
   {
     var resultado = (this.valor * 9/5) + 32;
-    console.log(resultado);
     return resultado;
   };
     
