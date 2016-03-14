@@ -1,7 +1,4 @@
-(function(exports) {
-  "use strict";
-  
-  function Metros(valor)
+function Metros(valor)
   {
     Medida.call(this, valor);
   }
@@ -14,6 +11,4 @@
     var resultado = (this.valor * 39.37);
     resultado = resultado.toFixed(2) + " Pulgadas";
     return resultado;
-  };
-  
-})(this);   
+  }; 
