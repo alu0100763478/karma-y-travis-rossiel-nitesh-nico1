@@ -15,7 +15,7 @@ En la práctica anterior modificamos el código del conversor de temperaturas pa
 
 ### Página de la práctica(.io):
 
-[Práctica 4](http://ull-esit-gradoii-dsi.github.io/eliminacion-del-switch-smell-rossiel-nitesh-nico1/)
+[Práctica 4](https://ull-esit-gradoii-dsi.github.io/eliminacion-del-switch-smell-rossiel-nitesh-nico1/)
 
 ### Enlace al repositorio git de la práctica:
 
