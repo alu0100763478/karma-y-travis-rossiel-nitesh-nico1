@@ -13,7 +13,7 @@ En la práctica anterior modificamos el código del conversor de temperaturas pa
 
 * Rossiel Dinosca González Ramírez: [Página personal de prácticas](http://alu0100763478.github.io/)
 
-### Página de la práctica(.io):
+### Página de la práctica (.io):
 
 [Práctica 4](https://ull-esit-gradoii-dsi.github.io/eliminacion-del-switch-smell-rossiel-nitesh-nico1/)
 
@@ -21,6 +21,6 @@ En la práctica anterior modificamos el código del conversor de temperaturas pa
 
 [Eliminación del Switch Smell](https://github.com/ULL-ESIT-GRADOII-DSI/eliminacion-del-switch-smell-rossiel-nitesh-nico1)
 
-### Enlace al Campus Virtual de la asignatura:
+### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura:
 
 [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=180154)
