@@ -1,13 +1,13 @@
 (function(exports) {
   "use strict";
-
-  Medida.calcula = function(valor) {
-    var auxiliar = XRegExp('^(\\s*) \n' +
+  Medida.measures = Medida.measures || {};
+  var auxiliar = XRegExp('^(\\s*) \n' +
                            '(?<val> [-+]?[0-9]+(\\.[0-9]+)?(?:e[+-]?[0-9]+)?) (\\s*) # val \n' +
                            '(?<tip> [a-z]) (\\s*) # tip \n' +
                            '((to))? (\\s*) \n' +
                            '(?<au> [a-z]) (\\s*)$ # au \n','x');
-
+                           
+  Medida.matching = function(valor) {
     var val = XRegExp.exec(valor, auxiliar);
     return val;
   };
@@ -26,8 +26,6 @@
     /* ademas de new Medida(45.2, "Km)*/
   };
 
-    Medida.measures = Medida.measures || {};
-
   Medida.convertir = function(valor) {
     
   
@@ -36,7 +34,7 @@
   
     var measures = Medida.measures;
 
-    var valor = Medida.calcula(valor);
+    var valor = Medida.matching(valor);
     if (valor) {
       var numero = parseFloat(valor.val),
           tipo   = valor.tip,
