@@ -35,7 +35,7 @@
       var numero = parseFloat(valor.val),
           tipo   = valor.tip,
           destino = valor.au;
-          console.log(numero, tipo, destino);
+          console.log(numero);
 
       try {         
         var source = new measures[tipo](numero);  // new Fahrenheit(32)

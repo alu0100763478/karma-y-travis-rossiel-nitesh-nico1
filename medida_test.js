@@ -6,17 +6,23 @@ describe("Medida", function(){
     
     beforeEach(function() {
       e = new Medida(5,"c");
-    });
+    }); //beforeEach
     
+  
     it("Debería tener un tipo", function(){
       expect(e.tipo).to.equal("c");
-    });
+    }); // it deberia tener un tipo
     
     it("Debería tener un valor", function(){
       expect(e.valor).to.equal(5);
-    });
-  });
-});
+    }); // it deberia tener un valor
+    
+    
+  
+  }); //describe Constructor
+
+}); // describe Medida
+
 
 describe("Temperatura",function(){
   describe("Constructor", function(){
@@ -152,4 +158,27 @@ describe("Convertir",function(){
     expect(Medida.convertir("100c to m")).to.equal('Desconozco como convertir desde "c" hasta "m"');
   });
   
+});
+
+
+describe ("Sinon", function(){
+  
+      var sandbox;
+  
+      beforeEach(function() {
+        sandbox = sinon.sandbox.create();
+        sandbox.stub(window.console, "log");
+        sandbox.stub(window.console, "error");
+      }); //beforeEach
+      
+      afterEach(function() {
+       sandbox.restore();
+      });
+      
+      describe("#convertir", function() {
+        it("should log on error if no target is passed in", function() {
+          new Medida.convertir("5 f to c");
+          sinon.assert.calledWithExactly(console.log, 5);
+        });
+      });
 });
