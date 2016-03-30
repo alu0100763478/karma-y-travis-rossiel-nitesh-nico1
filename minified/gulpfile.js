@@ -1,1 +1,0 @@
-var gulp=require("gulp"),del=require("del"),minify=require("gulp-minifier"),DEST="minified";gulp.task("minify",function(){return gulp.src(["*.html","*.js","**/*.css"]).pipe(minify({collapseWhitespace:!0,conservativeCollapse:!1,minify:!0,minifyJS:!0,minifyCSS:!0})).pipe(gulp.dest(DEST))}),gulp.task("clean",function(i){del(["minified/*"],i)});
