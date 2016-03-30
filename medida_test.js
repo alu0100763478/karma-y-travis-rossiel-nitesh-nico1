@@ -2,7 +2,12 @@ var expect = chai.expect;
 
 describe("Medida", function(){
   describe("Constructor", function(){
-    var e = new Medida(5,"c");
+    var e;
+    
+    beforeEach(function() {
+      e = new Medida(5,"c");
+    });
+    
     it("Debería tener un tipo", function(){
       expect(e.tipo).to.equal("c");
     });
@@ -15,7 +20,12 @@ describe("Medida", function(){
 
 describe("Temperatura",function(){
   describe("Constructor", function(){
-    var e = new Temperatura(32, "f");
+    var e;
+    
+    beforeEach(function() {
+      e = new Temperatura(32,"f");
+    });
+    
     it("Debería tener un tipo", function(){
       expect(e.tipo).to.equal("f");
     });
@@ -28,7 +38,12 @@ describe("Temperatura",function(){
 
 describe("Celsius",function(){
   describe("Constructor", function(){
-    var cel = new Celsius(32);
+    var cel;
+    
+    beforeEach(function() {
+      cel = new Celsius(32);
+    });
+    
     it("Debería tener un valor", function(){
       expect(cel.valor).to.equal(32);
     });
@@ -49,7 +64,11 @@ describe("Celsius",function(){
 
 describe("Farenheit",function(){
   describe("Constructor", function(){
-    var far = new Farenheit(32);
+    var far;
+    
+    beforeEach(function() {
+      far = new Farenheit(32);
+    });
     
     it("Debería tener un valor", function(){
       expect(far.valor).to.equal(32);
@@ -67,7 +86,11 @@ describe("Farenheit",function(){
 
 describe("Kelvin",function(){
   describe("Constructor", function(){
-    var kelv = new Kelvin(5);
+    var kelv;
+    
+    beforeEach(function() {
+      kelv = new Kelvin(5);
+    });
     
     it("Debería tener un valor", function(){
       expect(kelv.valor).to.equal(5);
@@ -85,7 +108,11 @@ describe("Kelvin",function(){
 
 describe("Metros",function(){
   describe("Constructor", function(){
-    var metros = new Metros(5);
+    var metros;
+    
+    beforeEach(function() {
+      metros = new Metros(5);
+    });
     
     it("Debería tener un valor", function(){
       expect(metros.valor).to.equal(5);
@@ -97,9 +124,13 @@ describe("Metros",function(){
   });
 });
 
-describe("Pulgadas",function(){
+describe("Pulgadas", function(){
   describe("Constructor", function(){
-    var pul = new Pulgadas(5);
+    var pul;
+    
+    beforeEach(function() {
+      pul = new Pulgadas(5);
+    });
     
     it("Debería tener un valor", function(){
       expect(pul.valor).to.equal(5);
@@ -111,3 +142,14 @@ describe("Pulgadas",function(){
   });
 });
 
+describe("Convertir",function(){
+
+  it("Debería devolver el error de tipo nulo",function(){
+    expect(Medida.convertir(null)).to.equal("Introduzca una entrada valida como: 330e-1 F to C");
+  });
+  
+  it("Debería devolver el error de tipo desconocico cómo convertir de un tipo a otro",function(){
+    expect(Medida.convertir("100c to m")).to.equal('Desconozco como convertir desde "c" hasta "m"');
+  });
+  
+});

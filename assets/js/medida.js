@@ -27,10 +27,6 @@
   };
 
   Medida.convertir = function(valor) {
-    
-  
-    var elemento  = document.getElementById('converted');
-    var elemento2 = document.getElementById('convertido');
   
     var measures = Medida.measures;
 
@@ -44,16 +40,16 @@
       try {         
         var source = new measures[tipo](numero);  // new Fahrenheit(32)
         var target = "to"+measures[destino].name; // "toCelsius"
-        elemento.innerHTML = source[target]().toFixed(2) + " "+target; // "0 Celsius"
+        return source[target]().toString();
       }
       catch(err) {
-        elemento.innerHTML = "";
-        elemento2.innerHTML = 'Desconozco como convertir desde "'+tipo+'" hasta "'+destino+'"';
+        console.log('Desconozco como convertir desde "' + tipo + '" hasta "' + destino + '"');
+        console.log(err);
+        return 'Desconozco como convertir desde "' + tipo + '" hasta "' + destino + '"';
       }
     }
     else {
-      elemento.innerHTML = "";
-      elemento2.innerHTML ="Introduzca una temperatura valida: 330e-1 F to C";
+      return "Introduzca una entrada valida como: 330e-1 F to C";
     }
       
   };    
