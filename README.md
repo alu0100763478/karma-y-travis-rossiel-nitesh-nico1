@@ -10,13 +10,11 @@ En esta práctica el objetivo es añadir pruebas usando Mocha y Chai a la Práct
 
 * Rossiel Dinosca González Ramírez: [Página personal de prácticas](http://alu0100763478.github.io/)
 
-### Página del Conversor (.io):
+### Páginas de la prácitca (.io):
 
-[Práctica 5](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/)
+* [Conversor](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/)
 
-### Página de los tests realizados (.io):
-
-[Tests] (http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/test.html)
+* [Tests realizados](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/test.html)
 
 ### Enlace al repositorio git de la práctica:
 
