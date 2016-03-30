@@ -18,8 +18,8 @@ En esta práctica el objetivo es añadir pruebas usando Mocha y Chai a la Práct
 
 ### Enlace al repositorio git de la práctica:
 
-[Mocha Chai](https://github.com/ULL-ESIT-GRADOII-DSI/mocha-y-chai-rossiel-nitesh-nico)
+* [Mocha Chai](https://github.com/ULL-ESIT-GRADOII-DSI/mocha-y-chai-rossiel-nitesh-nico)
 
 ### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura:
 
-[Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=182938)
+* [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=182938)
