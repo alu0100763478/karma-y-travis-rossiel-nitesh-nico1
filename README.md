@@ -1,9 +1,6 @@
-# Práctica: Eliminación del Switch Smell
+# Práctica: Mocha y Chai
 
-En la práctica anterior modificamos el código del conversor de temperaturas para que usara objetos y herencia. En esta práctica se tratarán las debilidades del código de la práctica anterior tales como:
-  * Utilización de los Switch
-  * Todas las clases están recogidas en un mismo fichero
-  * Expresión regular no optimizada
+En esta práctica el objetivo es añadir pruebas usando Mocha y Chai a la Práctica: Eliminando Switch Smell realizada anteriormente así como hacer un análisis de cubrimiento usando blanketjs.
 
 ### Participantes:
 
@@ -13,14 +10,16 @@ En la práctica anterior modificamos el código del conversor de temperaturas pa
 
 * Rossiel Dinosca González Ramírez: [Página personal de prácticas](http://alu0100763478.github.io/)
 
-### Página de la práctica (.io):
+### Páginas de la prácitca (.io):
 
-[Práctica 4](https://ull-esit-gradoii-dsi.github.io/eliminacion-del-switch-smell-rossiel-nitesh-nico1/)
+* [Conversor](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/)
+
+* [Tests realizados](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/test.html)
 
 ### Enlace al repositorio git de la práctica:
 
-[Eliminación del Switch Smell](https://github.com/ULL-ESIT-GRADOII-DSI/eliminacion-del-switch-smell-rossiel-nitesh-nico1)
+* [Mocha Chai](https://github.com/ULL-ESIT-GRADOII-DSI/mocha-y-chai-rossiel-nitesh-nico)
 
 ### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura:
 
-[Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=180154)
+* [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=182938)
