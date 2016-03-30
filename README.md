@@ -14,7 +14,7 @@ En esta práctica el objetivo es añadir pruebas usando Mocha y Chai a la Práct
 
 [Práctica 5](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/)
 
-### Página de los test realizados (.io):
+### Página de los tests realizados (.io):
 
 [Tests] (http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/test.html)
 
