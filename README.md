@@ -14,7 +14,7 @@ En la práctica anterior incluimos pruebas usando Mocha, Chai y Sinon. Ahora, ha
 
 * [Conversor](http://ull-esit-gradoii-dsi.github.io/karma-y-travis-rossiel-nitesh-nico1)
 
-* [Tests realizados](http://ull-esit-gradoii-dsi.github.io/karma-y-travis-rossiel-nitesh-nico1)
+* [Tests realizados](http://ull-esit-gradoii-dsi.github.io/karma-y-travis-rossiel-nitesh-nico1/test.html)
 
 ### Enlace al repositorio git de la práctica:
 
