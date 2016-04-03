@@ -1,6 +1,6 @@
-# Práctica: Mocha y Chai
+# Práctica: Karma y Travis
 
-En esta práctica el objetivo es añadir pruebas usando Mocha y Chai a la Práctica: Eliminando Switch Smell realizada anteriormente así como hacer un análisis de cubrimiento usando blanketjs.
+En la práctica anterior incluimos pruebas usando Mocha, Chai y Sinon. Ahora, haremos pruebas con Karma y Travis
 
 ### Participantes:
 
@@ -10,16 +10,16 @@ En esta práctica el objetivo es añadir pruebas usando Mocha y Chai a la Práct
 
 * Rossiel Dinosca González Ramírez: [Página personal de prácticas](http://alu0100763478.github.io/)
 
-### Páginas de la prácitca (.io):
+### Páginas de la práctica (.io):
 
-* [Conversor](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/)
+* [Conversor](http://ull-esit-gradoii-dsi.github.io/karma-y-travis-rossiel-nitesh-nico1)
 
-* [Tests realizados](http://ull-esit-gradoii-dsi.github.io/mocha-y-chai-rossiel-nitesh-nico/test.html)
+* [Tests realizados](http://ull-esit-gradoii-dsi.github.io/karma-y-travis-rossiel-nitesh-nico1)
 
 ### Enlace al repositorio git de la práctica:
 
-* [Mocha Chai](https://github.com/ULL-ESIT-GRADOII-DSI/mocha-y-chai-rossiel-nitesh-nico)
+* [Karma y Travis](https://github.com/ULL-ESIT-GRADOII-DSI/karma-y-travis-rossiel-nitesh-nico1)
 
 ### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura:
 
-* [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=182938)
+* [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=185189)
