@@ -15,23 +15,21 @@ module.exports = function(config) {
 
     // list of files / patterns to load in the browser
     files: [
-      {pattern: 'karma_test.js', included: false},
-      {pattern: 'medida_test.js', included: false},
-      {pattern: 'gulpfile.js', included: false},
-      {pattern: 'vendor/*.js', included: false},
-      {pattern: 'assets/js/*.js', included: false},
-      {pattern: 'karma_test.html', included: false}
+      'karma_test.js',
+      'medida_test.js',
+      'assets/js/*.js',
     ],
-
 
     // list of files to exclude
     exclude: [
+     'gulpfile.js'
     ],
 
 
     // preprocess matching files before serving them to the browser
     // available preprocessors: https://npmjs.org/browse/keyword/karma-preprocessor
     preprocessors: {
+      'karma_test.html' : ['html2js'],
     },
 
 
@@ -62,7 +60,7 @@ module.exports = function(config) {
     // available browser launchers: https://npmjs.org/browse/keyword/karma-launcher
     browsers: ['Chrome', 'Firefox'],
 
-
+    
     // Continuous Integration mode
     // if true, Karma captures browsers, runs the tests and exits
     singleRun: false,
