@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>Mocha</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="all" href="vendor/mocha.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/skeleton.css">
+    <link rel="stylesheet" href="assets/css/custom.css">
+    <script src="karma.conf.js"></script>
+    <script src="vendor/chai.js"></script>
+    <script src="vendor/mocha.js"></script>
+    <script src="vendor/sinon-1.12.2.js"></script>
+    <script src="vendor/blanket.js"
+        data-cover-adapter="vendor/mocha-blanket.js" data-cover-flags="debug"></script>
+    <script src="assets/js/xregexp-all.js"></script>
+    <script src="assets/js/medida.js" data-cover></script>
+    <script src="assets/js/distancia.js" data-cover></script>
+    <script src="assets/js/temperatura.js" data-cover></script>
+    <script src="assets/js/main.js" data-cover></script>
+    <script>mocha.setup('tdd')</script>
+  </head>
+  <body>
+    <div id="mocha"></div>
+    <div class="one-half column">
+        <p>Este conversor te permite hacer conversiones de Temperaturas (Celsius, Farenheit y Kelvin) Ejemplo: 23C para Celsius.</p>
+        <input id="convert" class="u-full-width" type="text" autofocus onchange="main();" placeholder="Introduzca un valor"><br>
+        <label>Resultado:</label>
+        <span id="converted"></span>
+        <span id="convertido"></span>
+    </div>
+    <div id="messages"></div>
+    <div id="fixtures"></div>
+    <div id="tpl">content of the template</div>
+    <script src="karma_test.js"></script>
+    <script>
+      mocha.run();
+    </script>
+  </body>
+</html>
