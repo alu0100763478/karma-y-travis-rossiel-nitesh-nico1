@@ -1,6 +1,6 @@
 # Práctica: Karma y Travis
 
-En la práctica anterior incluimos pruebas usando Mocha, Chai y Sinon. Ahora, haremos pruebas con Karma y Travis
+En la práctica anterior incluimos pruebas usando Mocha, Chai y Sinon. Ahora, haremos pruebas con Karma y Travis.[![Build Status](https://travis-ci.org/alu0100763478/karma-y-travis-rossiel-nitesh-nico1.svg?branch=master)](https://travis-ci.org/alu0100763478/karma-y-travis-rossiel-nitesh-nico1)
 
 ### Participantes:
 
