@@ -20,6 +20,7 @@
     "url": "https://github.com/aluXXXXXXX/STW03/issues"
   },
   "homepage": "https://github.com/aluXXXXXXX/STW03",
+  
   "devDependencies": {
     "chai": "*",
     "del": "^2.2.0",
@@ -36,4 +37,6 @@
     "karma-phantomjs-launcher": "*",
     "mocha": "*"
   }
+  "scripts": {
+   "test": "./node_modules/.bin/karma start --single-run --browsers Chrome"
 }

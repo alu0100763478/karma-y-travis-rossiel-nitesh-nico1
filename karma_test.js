@@ -1,27 +1,68 @@
 var assert = chai.assert;
 
-suite('temperature', function() {
-    setup(function(){
-      if (typeof __html__ !== 'undefined') {
-          document.body.innerHTML = __html__['karma_test.html'];
-          original = document.getElementById('convert');
-          converted = document.getElementById('converted');
-      }
+suite('Temperatura', function() {
+
+    test('32F = 0 Celsius', function() {
+        var resultado = Medida.convertir("32f to c");
+        assert.deepEqual(resultado,  '0');
+    });
+    
+    test('32F = 273.15 Kelvin', function() {
+        var resultado = Medida.convertir("32f to k");
+        assert.deepEqual(resultado, '273.15');
+    });
+    
+    test('0C = 273.15 Kelvin', function() {
+        var resultado = Medida.convertir("0c to k");
+        assert.deepEqual(resultado, '273.15');
+    });
+    
+    test('45C = 113.0 Farenheit', function() {
+        var resultado = Medida.convertir("45c to f");
+        assert.deepEqual(resultado, '113');
+    });
+    
+    test('273.15K = 0 Celsius', function() {
+        var resultado = Medida.convertir("273.15k to c");
+        assert.deepEqual(resultado, '0');
+    });
+    
+    test('273.15K = 3 Farenheit', function() {
+        var resultado = Medida.convertir("273.15k to f");
+        assert.deepEqual(resultado, '3');
+    });
+});
+
+
+
+suite('Medida', function() {
+    
+    test('Error- Desconozco conversion de tipos incompatibles', function() {
+        var resultado = Medida.convertir("45f to m");
+        assert.deepEqual(resultado, 'Desconozco como convertir desde "f" hasta "m"');
     });
 
-    test('32F = 0C', function() {
-        original.value = "32F";
-        convertir();
-        assert.deepEqual(converted.innerHTML, "0.0 Celsius");
+});
+
+suite('Distancia', function() {
+    
+    test('10 Metros = 393.7 Pulgadas', function() {
+        var resultado = Medida.convertir("10m to p");
+        assert.deepEqual(resultado, '393.7');
     });
-    test('45C = 113.0 Farenheit', function() {
-        original.value = "45C";
-        convertir();
-        assert.deepEqual(converted.innerHTML, "113.0 Farenheit");
+    
+        test('5 Pulgadas a metros', function() {
+        var resultado = Medida.convertir("5p to m");
+        assert.deepEqual(resultado, '0.12700025400050802');
     });
-    test('5X = error', function() {
-        original.value = "5X";
-        convertir();
-        assert.match(converted.innerHTML, /ERROR/);
+
+});
+
+suite('Main', function() {
+    
+    test('Main', function() {
+        var resultado = main();
+        assert.deepEqual(resultado, false);
     });
+
 });
