@@ -4,7 +4,7 @@ suite('temperature', function() {
     setup(function(){
       if (typeof __html__ !== 'undefined') {
           document.body.innerHTML = __html__['tests/test.html'];
-          original = document.getElementById('original');
+          original = document.getElementById('convert');
           converted = document.getElementById('converted');
       }
     });

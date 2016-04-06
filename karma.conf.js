@@ -18,11 +18,16 @@ module.exports = function(config) {
       'karma_test.js',
       'medida_test.js',
       'assets/js/*.js',
+      'vendor/blanket.js',
+      'vendor/chai.js',
+      'vendor/mocha-blanket.js',
+      'vendor/mocha.js',
+      'vendor/sinon-1.12.2.js',
+      'karma_test.html',
     ],
 
     // list of files to exclude
     exclude: [
-     'gulpfile.js'
     ],
 
 
