@@ -17,6 +17,8 @@ suite('Temperatura', function() {
         assert.deepEqual(resultado, '273.15');
     });
     
+suite('temperature', function() {
+    
     test('45C = 113.0 Farenheit', function() {
         var resultado = Medida.convertir("45c to f");
         assert.deepEqual(resultado, '113');
@@ -27,7 +29,7 @@ suite('Temperatura', function() {
         assert.deepEqual(resultado, '0');
     });
     
-    test('273.15K = 3 Farenheit', function() {
+    test('273.15K = 32 Farenheit', function() {
         var resultado = Medida.convertir("273.15k to f");
         assert.deepEqual(resultado, '3');
     });
@@ -56,6 +58,7 @@ suite('Distancia', function() {
         assert.deepEqual(resultado, '0.12700025400050802');
     });
 
+
 });
 
 suite('Main', function() {
@@ -66,3 +69,6 @@ suite('Main', function() {
     });
 
 });
+
+});
+

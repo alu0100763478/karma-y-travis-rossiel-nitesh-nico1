@@ -14,10 +14,10 @@
     <script src="vendor/blanket.js"
         data-cover-adapter="vendor/mocha-blanket.js" data-cover-flags="debug"></script>
     <script src="assets/js/xregexp-all.js"></script>
+    <script src="assets/js/main.js" data-cover></script>
     <script src="assets/js/medida.js" data-cover></script>
     <script src="assets/js/distancia.js" data-cover></script>
     <script src="assets/js/temperatura.js" data-cover></script>
-    <script src="assets/js/main.js" data-cover></script>
     <script src="karma_test.js"></script>
 
   </head>
@@ -28,13 +28,13 @@
         <input id="convert" class="u-full-width" type="text" autofocus onchange="main();" placeholder="Introduzca un valor"><br>
         <label>Resultado:</label>
         <span id="converted"></span>
-        <span id="convertido"></span>
     </div>
     <div id="messages"></div>
     <div id="fixtures"></div>
-    <div id="tpl">content of the template</div>
+   
           <script>
       mocha.run();
     </script>
+     <div id="tpl">content of the template</div>
   </body>
 </html>
