@@ -20,6 +20,6 @@ En la práctica anterior incluimos pruebas usando Mocha, Chai y Sinon. Ahora, ha
 
 * [Karma y Travis](https://github.com/ULL-ESIT-GRADOII-DSI/karma-y-travis-rossiel-nitesh-nico1)
 
-### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura:
+### Enlace a la descripción de la práctica en el Campus Virtual de la asignatura: 
 
 * [Campus Virtual](https://campusvirtual.ull.es/1516/mod/page/view.php?id=185189)
